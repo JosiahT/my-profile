@@ -1,0 +1,9 @@
+<ul (click)="selectNav($event)">
+  <li><a [class.active]="selected == '/'" routerLink="/">Home</a></li>
+  <li><a [class.active]="selected == '/about'" routerLink="/about">About</a></li>
+  <li><a [class.active]="selected == '/capture'" routerLink="/capture">Captures</a></li>
+  <li><a [class.active]="selected == '/paintings'" routerLink="/paintings">Paintings</a></li>
+  <li><a [class.active]="selected == '/projects'" routerLink="/projects">Projects</a></li>
+  <li><a [class.active]="selected == '/music'" routerLink="/music">Music</a></li>
+  <li><a class="right" [class.active]="selected == '/contact'" routerLink="/contact">Contact Me</a></li>
+</ul>

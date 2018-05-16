@@ -1,0 +1,30 @@
+div {   
+    padding: 0% 5% 0% 5%;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0.4,0.4);
+    transition: 0.3s;
+    width: 40%;
+    margin-bottom: 20px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0.4,0.4);
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+.left{
+    padding: 5% 5% 5% 50%;
+    text-align: justify;
+    background: url(images/bkg-blu.jpg) fixed padding-box; 
+}
+
+.right{
+    padding: 5% 50% 5% 5%;
+    text-align: justify;
+    background: -webkit-radial-gradient(lightblue, white) padding-box; 
+}
